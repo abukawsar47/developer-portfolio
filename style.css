@@ -8,27 +8,38 @@ h1{
 h2{
     font-size: 40px;
 }
-.orange-color{
-    color: orange;
+p {
+	text-align: justify;
 }
-.flexible-container{
-    display: flex;
-    margin-bottom: 150px;
+.orange-color {
+	color: #ec73d0;
 }
-.half-width{
-    width: 50%;
-    padding: 2%;
+.flexible-container {
+	display: flex;
+	margin-bottom: 100px;
 }
-.half-width img{
-    width: 100%;
+.half-width {
+	width: 39%;
+	float: left;
+	margin-left: 5%;
+	padding-left: 2%;
+	margin-top: 2%;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+.half-width img {
+	width: 100%;
+	box-shadow: 2px 2px 20px gray;
+	border-radius: 2%;
+	padding: 2%;
+}
+.link-button {
+	text-decoration: none;
+	background-image: linear-gradient(45deg, #ec73d0, #948dea);
+	padding: 10px 40px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 700;
+	margin-top: 10px;
+	display: inline-block;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -44,22 +55,22 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 }
-.experience-item{
-    box-shadow: 10px 10px 40px gray;
-    width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 15px;
+.experience-item {
+	box-shadow: 10px 10px 40px gray;
+	border-radius: 0 15px 15px 0;
+	width: 38%;
+	float: left;
+	margin-left: 5%;
+	padding: 0 2% 2% 2%;
 }
 #full-sack-experience{
     border-left: 7px solid;
-    border-image: linear-gradient(orange, tomato );
+    border-image: linear-gradient(#ec73d0, #948dea);
     border-image-slice: 1;  
 }
 #web-deb-experience{
     border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan );
+    border-image: linear-gradient(rgb(77, 77, 240), rgb(101, 238, 238) );
     border-image-slice: 1;
 }
 footer p{
